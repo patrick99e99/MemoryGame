@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAppleScriptBuildPhase section */
+		257572C4072881A4000BE9CA /* AppleScript */ = {
+			isa = PBXAppleScriptBuildPhase;
+			buildActionMask = 2147483647;
+			contextName = "";
+			files = (
+				CD6E184F0BF966AC0056ACBF /* memorygame.applescript in AppleScript */,
+			);
+			isSharedContext = 0;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXAppleScriptBuildPhase section */
+
+/* Begin PBXBuildFile section */
+		257572C7072881A4000BE9CA /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		257572C8072881A4000BE9CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		257572CA072881A4000BE9CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		257572CC072881A4000BE9CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		257572CD072881A4000BE9CA /* AppleScriptKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */; };
+		CD1D3D150BFBE50300441103 /* error2.aif in Resources */ = {isa = PBXBuildFile; fileRef = CD1D3D140BFBE50300441103 /* error2.aif */; };
+		CD6E184F0BF966AC0056ACBF /* memorygame.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = CD6E184E0BF966AC0056ACBF /* memorygame.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		CD7698960BFF75B9004F0182 /* image in Resources */ = {isa = PBXBuildFile; fileRef = CD76972B0BFF75B9004F0182 /* image */; };
+		CDAA22FE10E5FEA800077246 /* apple_icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = CDAA22FC10E5FEA800077246 /* apple_icon.icns */; };
+		CDAA22FF10E5FEA800077246 /* unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = CDAA22FD10E5FEA800077246 /* unknown.png */; };
+		CDEFB3F90BF697C200572E64 /* correct1.aif in Resources */ = {isa = PBXBuildFile; fileRef = CDEFB3F40BF697C200572E64 /* correct1.aif */; };
+		CDEFB3FA0BF697C200572E64 /* correct2.aif in Resources */ = {isa = PBXBuildFile; fileRef = CDEFB3F50BF697C200572E64 /* correct2.aif */; };
+		CDEFB3FB0BF697C200572E64 /* correct3.aif in Resources */ = {isa = PBXBuildFile; fileRef = CDEFB3F60BF697C200572E64 /* correct3.aif */; };
+		CDEFB3FC0BF697C200572E64 /* correct4.aif in Resources */ = {isa = PBXBuildFile; fileRef = CDEFB3F70BF697C200572E64 /* correct4.aif */; };
+		CDEFB3FD0BF697C200572E64 /* error.aif in Resources */ = {isa = PBXBuildFile; fileRef = CDEFB3F80BF697C200572E64 /* error.aif */; };
+		CDEFB4F10BF7A0E100572E64 /* startgame.aif in Resources */ = {isa = PBXBuildFile; fileRef = CDEFB4F00BF7A0E100572E64 /* startgame.aif */; };
+		CDFA6EA50C02A24D00864B70 /* imagecomments.txt in Resources */ = {isa = PBXBuildFile; fileRef = CDFA6EA40C02A24D00864B70 /* imagecomments.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		257572D5072881A4000BE9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257572D6072881A4000BE9CA /* MemoryGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		65359356078DD41800E8BB2F /* AppleScriptKit.sdef */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.sdef; name = AppleScriptKit.sdef; path = /System/Library/Frameworks/AppleScriptKit.framework/Versions/A/Resources/AppleScriptKit.sdef; sourceTree = "<absolute>"; };
+		CD1D3D140BFBE50300441103 /* error2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = error2.aif; path = audio/error2.aif; sourceTree = "<group>"; };
+		CD6E184E0BF966AC0056ACBF /* memorygame.applescript */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.applescript; path = memorygame.applescript; sourceTree = "<group>"; };
+		CD76972B0BFF75B9004F0182 /* image */ = {isa = PBXFileReference; lastKnownFileType = folder; path = image; sourceTree = "<group>"; };
+		CDAA22FC10E5FEA800077246 /* apple_icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = apple_icon.icns; sourceTree = "<group>"; };
+		CDAA22FD10E5FEA800077246 /* unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unknown.png; sourceTree = "<group>"; };
+		CDEFB3F40BF697C200572E64 /* correct1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = correct1.aif; path = audio/correct1.aif; sourceTree = "<group>"; };
+		CDEFB3F50BF697C200572E64 /* correct2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = correct2.aif; path = audio/correct2.aif; sourceTree = "<group>"; };
+		CDEFB3F60BF697C200572E64 /* correct3.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = correct3.aif; path = audio/correct3.aif; sourceTree = "<group>"; };
+		CDEFB3F70BF697C200572E64 /* correct4.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = correct4.aif; path = audio/correct4.aif; sourceTree = "<group>"; };
+		CDEFB3F80BF697C200572E64 /* error.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = error.aif; path = audio/error.aif; sourceTree = "<group>"; };
+		CDEFB4F00BF7A0E100572E64 /* startgame.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = startgame.aif; path = audio/startgame.aif; sourceTree = "<group>"; };
+		CDFA6EA40C02A24D00864B70 /* imagecomments.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = imagecomments.txt; sourceTree = "<group>"; };
+		DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptKit.framework; path = /System/Library/Frameworks/AppleScriptKit.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		257572CB072881A4000BE9CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257572CC072881A4000BE9CA /* Cocoa.framework in Frameworks */,
+				257572CD072881A4000BE9CA /* AppleScriptKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				CD6E184E0BF966AC0056ACBF /* memorygame.applescript */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				257572D6072881A4000BE9CA /* MemoryGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* memorygame */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Scripts */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				257572D5072881A4000BE9CA /* Info.plist */,
+			);
+			name = memorygame;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CDAA22FC10E5FEA800077246 /* apple_icon.icns */,
+				CDAA22FD10E5FEA800077246 /* unknown.png */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				65359356078DD41800E8BB2F /* AppleScriptKit.sdef */,
+				CDEFB3F40BF697C200572E64 /* correct1.aif */,
+				CDEFB4F00BF7A0E100572E64 /* startgame.aif */,
+				CD76972B0BFF75B9004F0182 /* image */,
+				CD1D3D140BFBE50300441103 /* error2.aif */,
+				CDEFB3F50BF697C200572E64 /* correct2.aif */,
+				CDEFB3F60BF697C200572E64 /* correct3.aif */,
+				CDFA6EA40C02A24D00864B70 /* imagecomments.txt */,
+				CDEFB3F70BF697C200572E64 /* correct4.aif */,
+				CDEFB3F80BF697C200572E64 /* error.aif */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		257572C3072881A4000BE9CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		257572C2072881A4000BE9CA /* MemoryGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDEFB3AA0BF64FCC00572E64 /* Build configuration list for PBXNativeTarget "MemoryGame" */;
+			buildPhases = (
+				257572C3072881A4000BE9CA /* Headers */,
+				257572C4072881A4000BE9CA /* AppleScript */,
+				257572C6072881A4000BE9CA /* Resources */,
+				257572C9072881A4000BE9CA /* Sources */,
+				257572CB072881A4000BE9CA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemoryGame;
+			productInstallPath = "$(HOME)/Applications";
+			productName = memorygame;
+			productReference = 257572D6072881A4000BE9CA /* MemoryGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CDEFB3AE0BF64FCC00572E64 /* Build configuration list for PBXProject "memorygame" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* memorygame */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				257572C2072881A4000BE9CA /* MemoryGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		257572C6072881A4000BE9CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257572C7072881A4000BE9CA /* MainMenu.nib in Resources */,
+				257572C8072881A4000BE9CA /* InfoPlist.strings in Resources */,
+				CDEFB3F90BF697C200572E64 /* correct1.aif in Resources */,
+				CDEFB3FA0BF697C200572E64 /* correct2.aif in Resources */,
+				CDEFB3FB0BF697C200572E64 /* correct3.aif in Resources */,
+				CDEFB3FC0BF697C200572E64 /* correct4.aif in Resources */,
+				CDEFB3FD0BF697C200572E64 /* error.aif in Resources */,
+				CDEFB4F10BF7A0E100572E64 /* startgame.aif in Resources */,
+				CD1D3D150BFBE50300441103 /* error2.aif in Resources */,
+				CD7698960BFF75B9004F0182 /* image in Resources */,
+				CDFA6EA50C02A24D00864B70 /* imagecomments.txt in Resources */,
+				CDAA22FE10E5FEA800077246 /* apple_icon.icns in Resources */,
+				CDAA22FF10E5FEA800077246 /* unknown.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		257572C9072881A4000BE9CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257572CA072881A4000BE9CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDEFB3AB0BF64FCC00572E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MemoryGame;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		CDEFB3AC0BF64FCC00572E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_OSAFLAGS = "-x";
+				PREBINDING = NO;
+				PRODUCT_NAME = MemoryGame;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		CDEFB3AD0BF64FCC00572E64 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MemoryGame;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		CDEFB3AF0BF64FCC00572E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		CDEFB3B00BF64FCC00572E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		CDEFB3B10BF64FCC00572E64 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDEFB3AA0BF64FCC00572E64 /* Build configuration list for PBXNativeTarget "MemoryGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDEFB3AB0BF64FCC00572E64 /* Debug */,
+				CDEFB3AC0BF64FCC00572E64 /* Release */,
+				CDEFB3AD0BF64FCC00572E64 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		CDEFB3AE0BF64FCC00572E64 /* Build configuration list for PBXProject "memorygame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDEFB3AF0BF64FCC00572E64 /* Debug */,
+				CDEFB3B00BF64FCC00572E64 /* Release */,
+				CDEFB3B10BF64FCC00572E64 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
